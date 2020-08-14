@@ -29,7 +29,7 @@ const PageHeader: React.FC<PageHeaderProps> = ( {title} ) => {
                 <Image source={logoImg} resizeMode='contain'></Image>
             </View>
 
-            <Text style={styles.title}> { title } </Text>
+            <Text style={styles.title}>{ title } </Text>
         </View>
     ) 
 }
